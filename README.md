@@ -65,3 +65,14 @@ Classify employee job roles by their Equality Score to assess gender pay equity 
 ### Excel Formula Used
 ```
 =IF(ABS(C2)<=10, "Fair", IF(ABS(C2)<=20, "Unfair", "Highly Discriminative"))
+```
+## Included File
+**Equality Table** - `Classified.xlsx`
+
+## Licensing & Ethical Note
+This repository does not include original datasets or proprietary resources from Forage due to usage restrictions. All outputs and insights are based on public, educational, or self-created content.
+
+##  About the Virtual Internship
+These tasks were completed as part of the Daikibo Industrials program on Forage. The experience simulates real-world data analysis and decision-making scenarios faced in manufacturing, operations, and business intelligence roles.
+
+
