@@ -26,3 +26,36 @@ This calculates 10 minutes of potential downtime for each "unhealthy" reading.
   - Down Time per Device Type
 - Combined both charts in an interactive dashboard.
    - Selecting a factory filters the device-type breakdown.
+
+## Screenshot
+
+###  Tools Used
+- Tableau Desktop
+- JSON Data
+- Calculated Fields & Interactive Filters
+
+## Equality Score Classification (Excel)
+
+### Objective
+Classify employee job roles by their Equality Score to assess gender pay equity across factories.
+
+### 📁 Dataset Structure
+(Original file not included for licensing reasons)
+
+
+|Column	|Description|
+|-------|-----------|
+|Factory|	Name of the location|
+|Job Role|	Title/position of the employee|
+|Equality Score	|Integer from -100 to 100 (0 = ideal)|
+
+### Added Column: Equality Class
+|Equality Score	|Equality Class|
+|---------------|--------------|
+|Between -10 and +10 |	Fair|
+|-11 to -20 / 11 to 20 |	Unfair|
+|< -20 or > 20	| Highly Discriminative|
+
+### Excel Formula Used
+```
+=IF(ABS(C2)<=10, "Fair", IF(ABS(C2)<=20, "Unfair", "Highly Discriminative"))
