@@ -13,13 +13,13 @@ This repository contains my solutions to two data analysis tasks completed as pa
 Analyze telemetry data from various Daikibo factories to measure and visualize **equipment downtime** using Tableau.
 
 ###  Key Steps
-<br>
-- Imported JSON data (`daikibo-telemetry-data.json`) into Tableau.<br>
-- Created a **calculated field**: 
+
+- Imported JSON data (`daikibo-telemetry-data.json`) into Tableau.
+- Created a **calculated field** : 
 
   ```tableau
   IF [Status] = "unhealthy" THEN 10 ELSE 0 END
-```
+
 This calculates 10 minutes of potential downtime for each "unhealthy" reading.
 - Built two bar charts:
   - Down Time per Factory
