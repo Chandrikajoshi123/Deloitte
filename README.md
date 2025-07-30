@@ -29,6 +29,12 @@ This calculates 10 minutes of potential downtime for each "unhealthy" reading.
 
 ## Screenshot
 
+
+https://github.com/user-attachments/assets/f76b9938-c1eb-406a-91ba-e0d48db3670e
+
+
+
+
 ###  Tools Used
 - Tableau Desktop
 - JSON Data
@@ -39,7 +45,7 @@ This calculates 10 minutes of potential downtime for each "unhealthy" reading.
 ### Objective
 Classify employee job roles by their Equality Score to assess gender pay equity across factories.
 
-### 📁 Dataset Structure
+###  Dataset Structure
 (Original file not included for licensing reasons)
 
 
