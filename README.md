@@ -19,3 +19,10 @@ Analyze telemetry data from various Daikibo factories to measure and visualize *
 
   ```tableau
   IF [Status] = "unhealthy" THEN 10 ELSE 0 END
+```
+This calculates 10 minutes of potential downtime for each "unhealthy" reading.
+- Built two bar charts:
+  - Down Time per Factory
+  - Down Time per Device Type
+- Combined both charts in an interactive dashboard.
+   - Selecting a factory filters the device-type breakdown.
